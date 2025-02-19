@@ -1,6 +1,5 @@
 <?php
-echo "Hello World";
-$TOKEN = "7593134488:AAHoqHRCqvoBLIa34PyqZ9XBS2klorSkiJQ";
+require "credantionals.php";
 $API_URL = "https://api.telegram.org/bot$TOKEN/";
 
 $update = json_decode(file_get_contents("php://input"), true);
